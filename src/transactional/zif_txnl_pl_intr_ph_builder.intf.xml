@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_TXNL_PL_INTR_PH_BUILDER</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Transactional Pipeline - Interactive Phase Builder</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_TXNL_PL_INTR_PH_BUILDER</CLSNAME>
+     <CMPNAME>ADD_INTERACTION_PHASE_STEP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Adds a pre-built step to the Interaction Phase</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_TXNL_PL_INTR_PH_BUILDER</CLSNAME>
+     <CMPNAME>ADD_TO_INTERACTION_PHASE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Adds a step to the Interaction Phase</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_TXNL_PL_INTR_PH_BUILDER</CLSNAME>
+     <CMPNAME>CONTINUE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Transitions the pipeline to the Save Phase</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD_INTERACTION_PHASE_STEP</CMPNAME>
+     <SCONAME>I_STEP</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>The execution step to append</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD_INTERACTION_PHASE_STEP</CMPNAME>
+     <SCONAME>R_SELF</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>The builder instance for chaining</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD_TO_INTERACTION_PHASE</CMPNAME>
+     <SCONAME>R_SELF</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>The builder instance for chaining</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONTINUE</CMPNAME>
+     <SCONAME>R_VAL</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>The Save Phase builder to continue assembly</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
